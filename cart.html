@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<html class="background">
+    <!--CHARLIE GETS CREDIT FOR HELPING WITH FORM-->
+    <head>
+    <title>Cart</title>
+    <link href="styles for cart.css" rel="stylesheet">
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+            </style>
+    </head>
+
+    <header>
+    <h1 class="title"><b>Juan Swan Dipping Sauce</b></h1>
+    <table class="websites">
+        <tr>
+        <th><a href="finalproject.html">Home</a></th>
+        <th><a href="cart.html">Cart</a></th>
+        <th><a href="support.html">Support</a></th>
+        <th><a href="purchase.html">Purchase</a></th>
+        </tr>
+    </table>
+    <br><br><br>
+    <!--Purchase Form-->
+
+    <h1 class="purchaseHead"><b>Purchase Here</b></h1>
+    </header>
+    <form id="basicinfo">
+    <legend><b>Purchase Items in Cart</b></legend>
+    <fieldset id="name">     
+    <label for="nameL">First Name</label>
+    <input placeholder="Your name here" id="nameL" type="text">
+    <label for="lastnameL">Last Name</label>
+    <input placeholder="Your last name here" id="lastnameL" type="text">
+    <label for="address1">Street Address</label>
+    <input placeholder="Your address here" type="text" id="address1">
+    <label for="address2">Street Address (2)</label>              
+    <input type="text" id="address2">
+    <label for="country">Country</label>
+    <input id = "country" name="country" type="text">
+    <label for="year">Province/territory</label>
+    <select id="year" name="yearSL">
+       <option>NS</option>
+       <option>ON</option>
+       <option>NB</option>
+       <option>NF</option>   
+       <option>QB</option> 
+       <option>SA</option> 
+       <option>YK</option>        
+       <option>AL</option>  
+       <option>PEI</option>  
+       <option>NU</option>    
+       <option>NW</option>     
+       <option>MA</option>           
+    </select>
+    <label for="Phone">Phone Number</label>
+    <input type="tel" placeholder="Phone number here" id="Phone" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+         <label for ='cardtype'>Enter your type of card</label>
+        <select id="cardtype" name="whatCard">
+            <option>Credit Card</option>
+            <option>Debit Card</option>
+            <option>Paypal</option>
+            <option>Bitcoin</option>
+        </select>
+        <label for="cardnum">Enter Your card Number</label>
+        <input id="cardnum" name="cardnum" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="19" type="text" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$">
+        <label for="digit3" >Security code</label>
+        <input id="digit3" name="digit3" type="text" placeholder="xxx" maxlength="3">
+        <label for="expiration">Expiration Date</label>
+        <select id="expiration" name="expirationdate">
+        <option>2023</option>
+        <option>2024</option>
+        <option>2025</option>
+        <option>2026</option>
+        <option>2027</option>
+        <option>2028</option>
+            </select>
+        </fieldset>
+    </fieldset>
+    <button type="submit" ><a href="#" data-toggle="tooltip" title="Click Here To Submit">Submit</a></button>  
+    </form>
+
+</html>

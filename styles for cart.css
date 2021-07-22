@@ -1,0 +1,95 @@
+/*Header and Background Styles*/
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+    border: rgb(0, 0, 0) solid 5px;
+    border-radius: 10px;
+    background-color: rgb(173, 160, 149);
+    margin-right: 35%;
+    margin-left: 35%;
+    top:100px;
+}
+.title {
+    font-family: 'Slackey', cursive;
+}
+html {
+    background: rgb(195, 186, 178)
+}
+.releaseDate {
+    border: rgb(0, 0, 0) solid 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 70px;
+    border-radius: 10px;
+    background-color: rgb(173, 160, 149);
+}
+
+/*Website Table Styles*/
+.websites {
+    background:rgb(173, 160, 149);
+    border: black solid 5px;
+    width:100%;
+    border-radius: 10px;
+}
+.websites caption {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.websites th a{
+    color: rgb(0, 0, 107);
+    text-decoration: none;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.websites th a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Payment Form Styles*/          
+/*Charlie Helped With This Form*/
+fieldset#nameL {
+    float: left ;
+    width: 400px;
+}
+form#basicinfo input, form#basicinfo label {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+form{
+    border:rgb(0, 0, 0) solid ;
+    border-radius: 13px;
+    margin-left: 40%;
+    margin-right: 40%;
+    top: 275px;
+    left: 625px;
+    background:rgb(173, 160, 149);
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+form#basicinfo legend {
+    font-size: 26px;
+    text-decoration: underline;
+    border-radius: 10px;
+    border: solid rgb(0, 0, 0) 2px;
+    text-align: center;
+}
+form button {
+    margin-top: 10px;
+    border: solid rgb(0, 0, 0) 1px;
+    background:rgb(150, 138, 129);
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-left: 35px;
+    font-size: 30px;
+}
+form button:hover {
+background: rgb(109, 99, 92);
+}
+form button a {
+    color: black;
+}
+
+    
