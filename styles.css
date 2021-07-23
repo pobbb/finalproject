@@ -1,0 +1,145 @@
+/*Header and Background Styles*/
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+    border: rgb(0, 0, 0) solid 5px;
+    border-radius: 10px;
+    background-color: rgb(173, 160, 149);
+    margin-right: 35%;
+    margin-left: 35%;
+    top:100px;
+}
+.title {
+    font-family: 'Slackey', cursive;
+}
+html {
+    background: rgb(195, 186, 178);
+    min-width: 1000px
+}
+.releaseDate {
+    border: rgb(0, 0, 0) solid 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 70px;
+    border-radius: 10px;
+    background-color: rgb(173, 160, 149);
+}
+
+/*Information Styles*/
+.information {
+    position: absolute;
+    left: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border: rgb(110, 63, 63) solid 5px;
+    top:480px
+}
+.informationInfo {
+    position: absolute;
+    left: 300px;
+    top: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border: black solid 5px;
+}
+.dippingSauceImage1 {
+    position: absolute;
+    right:400px;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+
+/*Founder Styles*/
+.founderText {
+    position: absolute;
+    font-family: sans-serif;
+    right:480px;
+    top: 890px;
+}
+.founder {
+    position: absolute;
+    right:385px;
+    top: 965px;
+    width:300px;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+
+/*FAQ Styles*/
+.faq {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:525px;
+    top: 690px;
+    border: rgb(110, 63, 63) solid 5px;
+    border-radius: 10px;
+}
+.faqText1 {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:300px;
+    top: 750px;
+    border: black solid 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.faqText2 {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:300px;
+    top: 825px;
+    border: black solid 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.faqText3 {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:300px;
+    top: 900px;
+    border: black solid 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/*History Styles*/
+.history {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:500px;
+    top: 985px;
+    border: rgb(110, 63, 63)  solid 5px;
+    border-radius: 10px;
+}
+.historyText {
+position: absolute;
+left: 300px;
+top: 1050px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 10px;
+border: black solid 5px;
+}
+
+/*Website Table Styles*/
+.websites {
+    background:rgb(173, 160, 149);
+    border: black solid 5px;
+    width:100%;
+    border-radius: 10px;
+}
+.websites caption {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.websites th a{
+    color: rgb(0, 0, 107);
+    text-decoration: none;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.websites th a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
